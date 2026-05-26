@@ -42,7 +42,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     define: defineEnvVariables(['NODE_ENV']),
-    base: '/ryazanskaya_oblast_bot',
+    base: '/ryazanskaya_oblast_bot/',
     publicDir: 'static',
     build: {
       outDir: BUILD_PATH,
