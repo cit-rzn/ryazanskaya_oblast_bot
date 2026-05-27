@@ -10,7 +10,7 @@
     "dev": "vite --port 8080 --host",
     "validate": "tsx scripts/validate-config/index.ts",
     "prebuild": "yarn validate",
-    "build": "yarn rm-public && vite build && yarn run rm-source-maps",
+    "build": "yarn rm-public && vite build && yarn run rm-source-maps && cp public/index.html public/404.html",
     "preview": "vite preview --port 8080",
     "tsc:check": "tsc --project tsconfig.json",
     "lint": "eslint --ignore-path .gitignore ../../../Downloads/Единый региональный сервис 2/vk-mini-app-regiony-front (1) --ext ts,.tsx,.js,.jsx",

@@ -12,7 +12,7 @@ import { buildFontsInject } from './tools/fonts';
 import tsConfig from './tsconfig.json';
 
 const SRC_PATH = path.resolve(__dirname, 'src');
-const BUILD_PATH = path.resolve(__dirname, 'dist');
+const BUILD_PATH = path.resolve(__dirname, 'public');
 
 const defineEnvVariables = (variables: string[]): Record<string, any> =>
   variables.reduce(

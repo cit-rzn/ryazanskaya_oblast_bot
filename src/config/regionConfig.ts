@@ -34,11 +34,13 @@ export const resolveIconUrl = (
     return icon;
   }
 
+  const base = import.meta.env.BASE_URL;
+
   if (icon.includes('/')) {
-    return `/static/${icon}`;
+    return `${base}static/${icon}`;
   }
 
-  return `/static/${folder}/${icon}`;
+  return `${base}static/${folder}/${icon}`;
 };
 
 export const findServiceOrChannel = (id: string): TService | TChannel | undefined =>

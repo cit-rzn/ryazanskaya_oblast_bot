@@ -36,4 +36,7 @@ export const ROUTER = createBrowserRouter([
       },
     ],
   },
-]);
+],
+{
+  basename: '/ryazanskaya_oblast_bot/'
+});
