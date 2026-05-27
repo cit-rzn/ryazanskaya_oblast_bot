@@ -8,7 +8,17 @@
       "type": "channel",
       "owner": "Правительство Рязанской области",
       "link": "https://max.ru/pv_malkov",
-      "tags": ["губернатор", "новости", "власть"]
+      "tags": ["губернатор", "новости", "власть", "Рязань"]
+    },
+    {
+      "id": "channel-mer",
+      "name": "Борис Ясинский",
+      "description": "Официальный канал главы администрации города Рязани",
+      "icon": "mer.png",
+      "type": "channel",
+      "owner": "Администрация города Рязани",
+      "link": "https://max.ru/id6227000292_gos",
+      "tags": ["новости", "власть", "Рязань"]
     },
     {
       "id": "channel-mincifry62",
@@ -33,14 +43,14 @@
   ],
   "categories": [
     { "id": "housing", "name": "Дом и ЖКХ", "icon": "housing.png" },
-    { "id": "family", "name": "Семья и дети", "icon": "family.png", "show_on_main": true },
+    { "id": "family", "name": "Семья и дети" },
     { "id": "transport", "name": "Транспорт" },
     { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
     { "id": "culture", "name": "Культура", "icon": "culture.png", "show_on_main": true },
     { "id": "education", "name": "Образование" },
-    { "id": "social", "name": "Соцподдержка", "icon": "gosuslugi.png", "show_on_main": true  },
+    { "id": "social", "name": "Госуслуги", "icon": "gosuslugi.png", "show_on_main": true },
     { "id": "ecology", "name": "Экология" },
-    { "id": "incidents", "name": "Происшествия" },
+    { "id": "incidents", "name": "Происшествия", "icon": "mchs.png", "show_on_main": true },
     { "id": "business", "name": "Бизнес" },
     { "id": "employment", "name": "Работа и занятость" },
     { "id": "sport", "name": "Спорт", "icon": "sport.png", "show_on_main": true },
@@ -93,7 +103,7 @@
       "owner": "Министерство здравоохранения Рязанской области",
       "link": "https://max.ru/ryazan122_bot",
       "tags": ["врач", "поликлиника", "запись"],
-      "category_ids": ["health"],
+      "category_ids": ["health", "family"],
       "popular": true
     },
     {
@@ -132,8 +142,55 @@
       "link": "https://www.gosuslugi.ru/r/ryazan",
       "tags": ["госуслуги", "документы"],
       "category_ids": ["social"],
-      "popular": true,
-      "federal": true
+      "popular": true
+    },
+    {
+      "id": "mfc",
+      "name": "МФЦ Рязанской области",
+      "description": "Официальный чат-бот МФЦ Рязанской области",
+      "icon": "mfc.png",
+      "type": "site",
+      "owner": "Минцифры России",
+      "link": "https://max.ru/mfcryazan_bot",
+      "tags": ["госуслуги", "документы", "мфц"],
+      "category_ids": ["social"],
+      "popular": true
+    },
+    {
+      "id": "v_ozhidanii_schastya",
+      "name": "В ожидании счастья",
+      "description": "Официальный бот для поддержки будущих мам и пап, многодетных семей Рязанской области от материальных выплат до психологических тренингов",
+      "icon": "happy.png",
+      "type": "chatbot",
+      "owner": "МТСЗН",
+      "link": "https://max.ru/v_ozhidanii_schastya_rzn_bot",
+      "tags": ["беременность", "дети", "поддержка"],
+      "category_ids": ["social", "family"],
+      "popular": true
+    },
+    {
+      "id": "ovz",
+      "name": "Семья с ребёнком с ОВЗ в Рязани",
+      "description": "Официальный бот для поддержки мам и пап с ребёнком с ограниченными возможностями здоровья от материальных выплат до психологических тренингов",
+      "icon": "ovz.png",
+      "type": "chatbot",
+      "owner": "МТСЗН",
+      "link": "https://max.ru/rzn_semya_s_ovz_bot",
+      "tags": ["ОВЗ", "дети", "поддержка"],
+      "category_ids": ["social", "family"],
+      "popular": true
+    },
+    {
+      "id": "oldy",
+      "name": "Активное долголетие Рязани",
+      "description": "Официальный бот Здоровой Рязани. Расскажет о мероприятиях и сервисах для граждан пожилого возраста на территории Рязанской области",
+      "icon": "oldy.png",
+      "type": "chatbot",
+      "owner": "МТСЗН",
+      "link": "https://max.ru/aktivnoe_dolgoletie_rzn_bot",
+      "tags": ["старшее поколение", "активное долголетие", "мероприятия"],
+      "category_ids": ["social", "culture"],
+      "popular": true
     }
   ],
   "support": {
