@@ -22,7 +22,7 @@
     },
     {
       "id": "channel-cit",
-      "name": "ГКУ РЯЗАНСКОЙ ОБЛАСТИ ЦИТ РЯЗАНСКОЙ ОБЛАСТИ",
+      "name": "ГКУ Рязанской области ЦИТ Рязанской области",
       "description": "ТЕХНИЧЕСКАЯ ПОДДЕРЖКА систем и сервисов электронного правительства Рязанской области",
       "icon": "cit.png",
       "type": "chatbot",
@@ -34,11 +34,11 @@
   "categories": [
     { "id": "housing", "name": "Дом и ЖКХ", "icon": "housing.png" },
     { "id": "family", "name": "Семья и дети", "icon": "family.png", "show_on_main": true },
-    { "id": "transport", "name": "Транспорт", "icon": "transport.png", "show_on_main": true },
+    { "id": "transport", "name": "Транспорт" },
     { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
     { "id": "culture", "name": "Культура", "icon": "culture.png", "show_on_main": true },
     { "id": "education", "name": "Образование" },
-    { "id": "social", "name": "Соцподдержка" },
+    { "id": "social", "name": "Соцподдержка", "icon": "gosuslugi.png", "show_on_main": true  },
     { "id": "ecology", "name": "Экология" },
     { "id": "incidents", "name": "Происшествия" },
     { "id": "business", "name": "Бизнес" },
@@ -95,16 +95,51 @@
       "tags": ["врач", "поликлиника", "запись"],
       "category_ids": ["health"],
       "popular": true
+    },
+    {
+      "id": "gosuslugi",
+      "name": "Госуслуги",
+      "description": "Портал государственных услуг Российской Федерации.",
+      "icon": "gosuslugi.png",
+      "type": "site",
+      "owner": "Минцифры России",
+      "link": "https://www.gosuslugi.ru",
+      "tags": ["госуслуги", "документы"],
+      "category_ids": ["social"],
+      "popular": true,
+      "federal": true
+    },
+    {
+      "id": "pos-gosuslugi",
+      "name": "Госуслуги Решаем вместе",
+      "description": "«Госуслуги Решаем вместе» — приложение для решения проблем. Подавайте жалобы, задавайте вопросы, вносите предложения, участвуйте в опросах и голосованиях, чтобы повысить качество жизни.",
+      "icon": "gosuslugi.png",
+      "type": "site",
+      "owner": "Минцифры России",
+      "link": "https://pos.gosuslugi.ru/landing/",
+      "tags": ["госуслуги", "решить проблему"],
+      "category_ids": ["social"],
+      "popular": true,
+      "federal": true
+    },
+    {
+      "id": "rzn-gosuslugi",
+      "name": "Госуслуги Рязанской области",
+      "description": "Госуслуги Рязанской области",
+      "icon": "gosuslugi.png",
+      "type": "site",
+      "owner": "Минцифры России",
+      "link": "https://www.gosuslugi.ru/r/ryazan",
+      "tags": ["госуслуги", "документы"],
+      "category_ids": ["social"],
+      "popular": true,
+      "federal": true
     }
-
   ],
-  "support":
-  {
-    "techSupport": {
-      "name": "Форма обращения",
-      "description": "Отправьте свой вопрос в поддержку",
-      "link": "https://max.ru/audit_citrzn_bot"
-    }
+  "support": {
+    "chatbot": null,
+    "operator": null,
+    "techSupport": null
   },
   "analytics": {
     "mytracker": {
