@@ -38,7 +38,7 @@
     { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
     { "id": "culture", "name": "Культура", "icon": "culture.png", "show_on_main": true },
     { "id": "education", "name": "Образование" },
-    { "id": "social", "name": "Соцподдержка", "icon": "gosuslugi.png", "show_on_main": true },
+    { "id": "social", "name": "Госуслуги", "icon": "gosuslugi.png", "show_on_main": true },
     { "id": "ecology", "name": "Экология" },
     { "id": "incidents", "name": "Происшествия", "icon": "mchs.png", "show_on_main": true },
     { "id": "business", "name": "Бизнес" },
