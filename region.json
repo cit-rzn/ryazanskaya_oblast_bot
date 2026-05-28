@@ -313,21 +313,6 @@
       "popular": true
     }
   ],
-  "services": [
-    {
-      "id": "mchs-region",
-      "name": "МЧС Рязанской области",
-      "description": "Официальная страница Главного управления МЧС России по Рязанской области",
-      "icon": "mchs.png",
-      "type": "chatbot",
-      "owner": "ГУ МЧС по Рязанской области",
-      "link": "https://max.ru/id6234010196_gos",
-      "tags": ["МЧС", "чрезвычайная ситуация", "пожар"],
-      "category_ids": ["safety"],
-      "popular": true,
-      "federal": true
-    }
-  ],
   "support": {
     "chatbot": null,
     "operator": null,
