@@ -73,10 +73,10 @@
   ],
   "categories": [
     { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false },
-    { "id": "regbots", "name": "Региональные боты", "icon": "gosuslugi.png", "show_on_main": true },
-    { "id": "safety", "name": "Безопасность", "icon": "gosuslugi.png", "show_on_main": true },
-    { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
-    { "id": "uslugi", "name": "Услуги", "icon": "gosuslugi.png", "show_on_main": true },
+    { "id": "regbots", "name": "Региональные боты", "icon": "online.png", "show_on_main": true },
+    { "id": "safety", "name": "Безопасность", "icon": "safety.png", "show_on_main": true },
+    { "id": "health", "name": "Здоровье", "icon": "online.png", "show_on_main": true },
+    { "id": "uslugi", "name": "Услуги", "icon": "online.png", "show_on_main": true },
     { "id": "family", "name": "Семья и дети" },
     { "id": "transport", "name": "Транспорт" },
     { "id": "education", "name": "Образование" },
@@ -99,9 +99,33 @@
       "owner": "ГУ МЧС по Рязанской области",
       "link": "https://max.ru/id6234010196_gos",
       "tags": ["МЧС", "чрезвычайная ситуация", "пожар"],
-      "category_ids": ["incidents"],
+      "category_ids": ["safety"],
       "popular": true,
       "federal": true
+    },
+    {
+      "id": "bot-stopdrugs",
+      "name": "Нет наркотикам в Рязани",
+      "description": "Направление сообщений от граждан по граффити, рекламирующим наркотики в Рязанской области",
+      "icon": "stopdrugs.png",
+      "type": "chatbot",
+      "owner": "Минцифры Рязанской области",
+      "link": "https://max.ru/stopdrugs_rzn_bot",
+      "tags": ["наркотики", "сообщить", "здоровье"],
+      "category_ids": ["safety", "health", "regbots"],
+      "popular": true
+    },
+    {
+      "id": "bot-obr62",
+      "name": "Образование62",
+      "description": "Бот разработан для информирования по вопросам образования в Рязанской области. Если Вы не нашли ответ на интересующий Вас вопрос, перейдите в раздел «Позвонить нам» или «Направить обращение»",
+      "icon": "obr62.png",
+      "type": "chatbot",
+      "owner": "Минобразования Рязанской области",
+      "link": "https://max.ru/minobr_rzn_bot",
+      "tags": ["школа", "образование", "отдых"],
+      "category_ids": ["education", "social", "family", "regbots"],
+      "popular": true
     },
     {
       "id": "bot-minsport",
@@ -112,7 +136,7 @@
       "owner": "Министерство спорта Рязанской области",
       "link": "https://max.ru/minsport_rzn_bot",
       "tags": ["спорт", "гто", "здоровье"],
-      "category_ids": ["social", "sport"],
+      "category_ids": ["social", "sport", "regbots"],
       "popular": true
     },
     {
@@ -124,7 +148,7 @@
       "owner": "Минцифры Рязанской области",
       "link": "https://max.ru/wifi_rzn_bot",
       "tags": ["WiFi", "интернет", "парки"],
-      "category_ids": ["culture"],
+      "category_ids": ["culture", "regbots"],
       "popular": true
     },
     {
@@ -136,8 +160,71 @@
       "owner": "Министерство здравоохранения Рязанской области",
       "link": "https://max.ru/ryazan122_bot",
       "tags": ["врач", "поликлиника", "запись"],
-      "category_ids": ["health", "family"],
+      "category_ids": ["health", "family", "regbots"],
       "popular": true
+    },
+    {
+      "id": "bot-112",
+      "name": "Служба 112 Рязанская область",
+      "description": "Сбор информации от населения о чрезвычайных ситуациях. С помощью бота вы можете обратиться в службу 112 - Единый номер вызова экстренных служб",
+      "icon": "112.png",
+      "type": "chatbot",
+      "owner": "Минцифра Рязанской области",
+      "link": "https://max.ru/ryazan112_bot",
+      "tags": ["чс", "происшествие", "сообщить"],
+      "category_ids": ["safety", "health", "regbots"],
+      "popular": true
+    },
+    {
+      "id": "bot-digital",
+      "name": "Оповещение Рязань",
+      "description": "Оповещения о событиях, происходящих на территории Рязанской области",
+      "icon": "safety.png",
+      "type": "chatbot",
+      "owner": "Минцифра Рязанской области",
+      "link": "https://max.ru/digital_rzn_bot",
+      "tags": ["чс", "происшествие", "укрытия"],
+      "category_ids": ["safety", "regbots"],
+      "popular": true
+    },
+    {
+      "id": "zags",
+      "name": "Главное управление ЗАГС Рязанской области",
+      "description": "Чат-бот разработан для удобства жителей региона и упрощения процесса взаимодействия с органами записи актов гражданского состояния. Здесь вы сможете оперативно решить вопросы, сэкономив свое время",
+      "icon": "zags.png",
+      "type": "chatbot",
+      "owner": "ГУ ЗАГС Рязанской области",
+      "link": "https://max.ru/zags_rzn_bot",
+      "tags": ["ЗАГС", "документы"],
+      "category_ids": ["social", "regbots"],
+      "popular": true,
+      "federal": true
+    },
+    {
+      "id": "eck",
+      "name": "Единая цифровая карта жителя Рязанской области",
+      "description": "Бот отвечает на самые популярные вопросы о Единой цифровой карте жителя Рязанской области. Можно запросить баланс карты, статус льготы и число льготных поездок",
+      "icon": "eck.png",
+      "type": "chatbot",
+      "owner": "Рязанская область",
+      "link": "https://max.ru/eck_rzn_bot",
+      "tags": ["ЕЦК", "цифровая карта"],
+      "category_ids": ["regbots"],
+      "popular": true,
+      "federal": true
+    },
+    {
+      "id": "online-rzn",
+      "name": "Прямая линия Губернатора Рязанской области",
+      "description": "Вопросы на прямую линию Губернатора Рязанской области",
+      "icon": "online.png",
+      "type": "chatbot",
+      "owner": "Рязанская область",
+      "link": "https://max.ru/online_rzn_gubernator_bot",
+      "tags": ["Малков", "прямая линия"],
+      "category_ids": ["online"],
+      "popular": true,
+      "federal": true
     },
     {
       "id": "gosuslugi",
@@ -148,20 +235,20 @@
       "owner": "Минцифры России",
       "link": "https://www.gosuslugi.ru",
       "tags": ["госуслуги", "документы"],
-      "category_ids": ["social"],
+      "category_ids": ["social", "uslugi"],
       "popular": true,
       "federal": true
     },
     {
       "id": "pos-gosuslugi",
       "name": "Госуслуги Решаем вместе",
-      "description": "«Госуслуги Решаем вместе» — приложение для решения проблем. Подавайте жалобы, задавайте вопросы, вносите предложения, участвуйте в опросах и голосованиях, чтобы повысить качество жизни.",
+      "description": "«Госуслуги Решаем вместе» — приложение для решения проблем. Подавайте жалобы, задавайте вопросы, вносите предложения, участвуйте в опросах и голосованиях, чтобы повысить качество жизни",
       "icon": "gosuslugi.png",
       "type": "site",
       "owner": "Минцифры России",
       "link": "https://pos.gosuslugi.ru/landing/",
       "tags": ["госуслуги", "решить проблему"],
-      "category_ids": ["social"],
+      "category_ids": ["social", "uslugi"],
       "popular": true,
       "federal": true
     },
@@ -174,7 +261,7 @@
       "owner": "Минцифры России",
       "link": "https://www.gosuslugi.ru/r/ryazan",
       "tags": ["госуслуги", "документы"],
-      "category_ids": ["social"],
+      "category_ids": ["social", "uslugi"],
       "popular": true
     },
     {
@@ -186,7 +273,7 @@
       "owner": "Минцифры России",
       "link": "https://max.ru/mfcryazan_bot",
       "tags": ["госуслуги", "документы", "мфц"],
-      "category_ids": ["social"],
+      "category_ids": ["social", "uslugi"],
       "popular": true
     },
     {
@@ -198,7 +285,7 @@
       "owner": "МТСЗН",
       "link": "https://max.ru/v_ozhidanii_schastya_rzn_bot",
       "tags": ["беременность", "дети", "поддержка"],
-      "category_ids": ["social", "family"],
+      "category_ids": ["social", "family", "regbots"],
       "popular": true
     },
     {
@@ -210,7 +297,7 @@
       "owner": "МТСЗН",
       "link": "https://max.ru/rzn_semya_s_ovz_bot",
       "tags": ["ОВЗ", "дети", "поддержка"],
-      "category_ids": ["social", "family"],
+      "category_ids": ["social", "family", "regbots"],
       "popular": true
     },
     {
@@ -222,8 +309,23 @@
       "owner": "МТСЗН",
       "link": "https://max.ru/aktivnoe_dolgoletie_rzn_bot",
       "tags": ["старшее поколение", "активное долголетие", "мероприятия"],
-      "category_ids": ["social", "culture"],
+      "category_ids": ["social", "culture", "regbots"],
       "popular": true
+    }
+  ],
+  "services": [
+    {
+      "id": "mchs-region",
+      "name": "МЧС Рязанской области",
+      "description": "Официальная страница Главного управления МЧС России по Рязанской области",
+      "icon": "mchs.png",
+      "type": "chatbot",
+      "owner": "ГУ МЧС по Рязанской области",
+      "link": "https://max.ru/id6234010196_gos",
+      "tags": ["МЧС", "чрезвычайная ситуация", "пожар"],
+      "category_ids": ["safety"],
+      "popular": true,
+      "federal": true
     }
   ],
   "support": {
