@@ -72,17 +72,17 @@
     }
   ],
   "categories": [
-    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": true },
+    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false },
     { "id": "regbots", "name": "Региональные боты", "icon": "regbots.png", "show_on_main": true },
     { "id": "safety", "name": "Безопасность", "icon": "safety.png", "show_on_main": true },
     { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
     { "id": "uslugi", "name": "Услуги", "icon": "uslugi.png", "show_on_main": true },
     { "id": "family", "name": "Семья и дети" },
-    { "id": "transport", "name": "Транспорт" },
+    { "id": "iogv", "name": "Исполнительные органы" },
     { "id": "education", "name": "Образование" },
     { "id": "culture", "name": "Культура" },
     { "id": "social", "name": "Госуслуги" },
-    { "id": "ecology", "name": "Экология" },
+    { "id": "glavimo", "name": "Главы муниципалитетов" },
     { "id": "incidents", "name": "Происшествия" },
     { "id": "business", "name": "Бизнес" },
     { "id": "employment", "name": "Работа и занятость" },
@@ -148,7 +148,7 @@
       "owner": "Минцифры Рязанской области",
       "link": "https://max.ru/wifi_rzn_bot",
       "tags": ["WiFi", "интернет", "парки"],
-      "category_ids": ["culture", "regbots"],
+      "category_ids": ["culture", "regbots", "safety"],
       "popular": true
     },
     {
@@ -273,7 +273,7 @@
       "owner": "Минцифры России",
       "link": "https://max.ru/mfcryazan_bot",
       "tags": ["госуслуги", "документы", "мфц"],
-      "category_ids": ["social", "uslugi"],
+      "category_ids": ["social", "uslugi", "regbots"],
       "popular": true
     },
     {
@@ -285,7 +285,7 @@
       "owner": "МТСЗН",
       "link": "https://max.ru/v_ozhidanii_schastya_rzn_bot",
       "tags": ["беременность", "дети", "поддержка"],
-      "category_ids": ["social", "family", "regbots"],
+      "category_ids": ["social", "family", "regbots", "health"],
       "popular": true
     },
     {
@@ -297,7 +297,7 @@
       "owner": "МТСЗН",
       "link": "https://max.ru/rzn_semya_s_ovz_bot",
       "tags": ["ОВЗ", "дети", "поддержка"],
-      "category_ids": ["social", "family", "regbots"],
+      "category_ids": ["social", "family", "regbots", "health"],
       "popular": true
     },
     {
@@ -309,7 +309,79 @@
       "owner": "МТСЗН",
       "link": "https://max.ru/aktivnoe_dolgoletie_rzn_bot",
       "tags": ["старшее поколение", "активное долголетие", "мероприятия"],
-      "category_ids": ["social", "culture", "regbots"],
+      "category_ids": ["social", "culture", "regbots", "health"],
+      "popular": true
+    },
+    {
+      "id": "duhod",
+      "name": "Долговременный уход",
+      "description": "Чат - бот предназначен для использования в системе долговременного ухода",
+      "icon": "duhod.png",
+      "type": "chatbot",
+      "owner": "МТСЗН",
+      "link": "https://max.ru/dolgovremenny_uhod_ryazan_kcsonbot",
+      "tags": ["долговременный уход"],
+      "category_ids": ["regbots", "health"],
+      "popular": true
+    },
+    {
+      "id": "zdrav62",
+      "name": "Моё здоровье Рязань",
+      "description": "Предоставление пациентам Рязанской области дистанционных услуг по получению электронных медицинских документов, записи на прием, телемедицинских консультаций",
+      "icon": "zdrav62.png",
+      "type": "chatbot",
+      "owner": "Минздрав",
+      "link": "https://max.ru/zdrav62_bot",
+      "tags": ["медицинские документы", "запись на прием", "телелмедицина"],
+      "category_ids": ["regbots", "health"],
+      "popular": true
+    },
+    {
+      "id": "llo",
+      "name": "ЛЛО остатки",
+      "description": "Актуальные остатки льготных лекарственных препаратов в аптечных пунктах",
+      "icon": "llo.png",
+      "type": "chatbot",
+      "owner": "Минздрав",
+      "link": "https://max.ru/ph62wh_rzn_bot",
+      "tags": ["лло", "остатки льготных лекарственных препаратов", "аптека"],
+      "category_ids": ["regbots", "health"],
+      "popular": true
+    },
+    {
+      "id": "telemed",
+      "name": "РязаньТелемед",
+      "description": "Предоставление пациентам Рязанской области телемедицинских консультаций",
+      "icon": "telemed.png",
+      "type": "chatbot",
+      "owner": "Минздрав",
+      "link": "https://max.ru/telemed_rzn_bot",
+      "tags": ["телелмедицина", "консультация", "врач"],
+      "category_ids": ["regbots", "health"],
+      "popular": true
+    },
+    {
+      "id": "rgu",
+      "name": "РГУ имени С.А. Есенина",
+      "description": "Помогает нашим студентам!",
+      "icon": "",
+      "type": "chatbot",
+      "owner": "РГУ",
+      "link": "https://max.ru/id6231016055_bot",
+      "tags": ["РГУ", "студенты", "образование"],
+      "category_ids": ["regbots", "education"],
+      "popular": true
+    },
+    {
+      "id": "rgrtu",
+      "name": "Расписание занятий РГРТУ",
+      "description": "Помогает нашим студентам!",
+      "icon": "rgrtu.png",
+      "type": "chatbot",
+      "owner": "РГРТУ",
+      "link": "https://max.ru/rasp_rsreu_bot",
+      "tags": ["РГРТУ", "студенты", "образование", "расписание"],
+      "category_ids": ["regbots", "education"],
       "popular": true
     }
   ],
