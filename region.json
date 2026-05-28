@@ -72,7 +72,7 @@
     }
   ],
   "categories": [
-    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false },
+    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": true },
     { "id": "regbots", "name": "Региональные боты", "icon": "regbots.png", "show_on_main": true },
     { "id": "safety", "name": "Безопасность", "icon": "safety.png", "show_on_main": true },
     { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
@@ -610,6 +610,18 @@
       "link": "https://max.ru/id6234176681_gos",
       "tags": ["власть", "ИОГВ", "исполнительные ограны", "министерства"],
       "category_ids": ["iogv"],
+      "popular": true
+    },
+    {
+      "id": "or62",
+      "name": "Открытый регион.62",
+      "description": "«Открытый регион.62» – это единая платформа услуг и сервисов для решения вопросов жителей региона",
+      "icon": "",
+      "type": "site",
+      "owner": "Минцифры России",
+      "link": "https://ор62.рф/",
+      "tags": ["открытый регион", "рязань"],
+      "category_ids": ["social", "uslugi", "family"],
       "popular": true
     }
   ],

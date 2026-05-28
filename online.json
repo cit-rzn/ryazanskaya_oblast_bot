@@ -1,0 +1,13 @@
+{
+  "id": "online-rzn",
+  "name": "Прямая линия Губернатора Рязанской области",
+  "description": "Вопросы на прямую линию Губернатора Рязанской области",
+  "icon": "online.png",
+  "type": "chatbot",
+  "owner": "Рязанская область",
+  "link": "https://max.ru/online_rzn_gubernator_bot",
+  "tags": ["Малков", "прямая линия"],
+  "category_ids": ["online"],
+  "popular": true,
+  "federal": true
+}
