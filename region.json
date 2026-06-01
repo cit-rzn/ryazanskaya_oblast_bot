@@ -623,6 +623,18 @@
       "tags": ["открытый регион", "рязань"],
       "category_ids": ["social", "uslugi", "family"],
       "popular": true
+    },
+    {
+      "id": "channel-agro",
+      "name": "Сельское хозяйство Рязанской области",
+      "description": "Официальный канал",
+      "icon": "",
+      "type": "channel",
+      "owner": "Министерство сельского хозяйства и продовольствия Рязанской области",
+      "link": "https://max.ru/id6231005198_gos",
+      "tags": ["власть", "ИОГВ", "исполнительные ограны", "министерства"],
+      "category_ids": ["iogv"],
+      "popular": true
     }
   ],
   "support": {
