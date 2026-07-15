@@ -96,8 +96,8 @@
     { "id": "business", "name": "Бизнес" },
     { "id": "employment", "name": "Работа и занятость" },
     { "id": "sport", "name": "Спорт"},
-    { "id": "tourism", "name": "Туризм" }
-    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false },
+    { "id": "tourism", "name": "Туризм" },
+    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false }
   ],
   "services": [
     {
