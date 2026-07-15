@@ -21,6 +21,16 @@
       "tags": ["новости", "власть", "Рязань", "Рязанская область"]
     },
     {
+      "id": "mincifry",
+      "name": "Минцифры Рязанской области",
+      "description": "Канал Минцифры Рязанской области",
+      "icon": "mc62.png",
+      "type": "channel",
+      "owner": "Минцифры Рязанской области",
+      "link": "https://max.ru/mincifry62",
+      "tags": ["власть", "Рязань"]
+    },
+    {
       "id": "minobr",
       "name": "Министерство образования Рязанской области",
       "description": "Официальный канал министерства образования Рязанской области",
@@ -72,7 +82,6 @@
     }
   ],
   "categories": [
-    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false },
     { "id": "regbots", "name": "Региональные боты", "icon": "regbots.png", "show_on_main": true },
     { "id": "safety", "name": "Безопасность", "icon": "safety.png", "show_on_main": true },
     { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
@@ -87,7 +96,8 @@
     { "id": "business", "name": "Бизнес" },
     { "id": "employment", "name": "Работа и занятость" },
     { "id": "sport", "name": "Спорт"},
-    { "id": "tourism", "name": "Туризм" }
+    { "id": "tourism", "name": "Туризм" },
+    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false }
   ],
   "services": [
     {
@@ -177,12 +187,12 @@
     },
     {
       "id": "bot-digital",
-      "name": "Оповещение Рязань",
-      "description": "Оповещения о событиях, происходящих на территории Рязанской области",
+      "name": "Карта укрытий Рязанской области",
+      "description": "Поиск ближайших укрытий на территории Рязанской области",
       "icon": "safety.png",
       "type": "chatbot",
       "owner": "Минцифра Рязанской области",
-      "link": "https://max.ru/digital_rzn_bot",
+      "link": "https://max.ru/shelter_ryazan_bot",
       "tags": ["чс", "происшествие", "укрытия"],
       "category_ids": ["safety", "regbots"],
       "popular": true
