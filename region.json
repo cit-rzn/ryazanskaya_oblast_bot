@@ -645,6 +645,30 @@
       "tags": ["власть", "ИОГВ", "исполнительные ограны", "министерства"],
       "category_ids": ["iogv"],
       "popular": true
+    },
+    {
+      "id": "parkingRZN",
+      "name": "Парковочное пространство Рязани",
+      "description": "сервис Парковочное пространство Рязани",
+      "icon": "logo_parking.svg",
+      "type": "site",
+      "owner": "Администрация города Рязани",
+      "link": "https://rzn-parking.ru/",
+      "tags": ["транспорт"],
+      "category_ids": ["uslugi"],
+      "popular": true
+    },
+    {
+      "id": "bot-parking",
+      "name": "Горпарковки Бот",
+      "description": "Оплата парковки в городах, возможность оставить обратную связь",
+      "icon": "parking.png",
+      "type": "chatbot",
+      "owner": "Администрация города Рязани",
+      "link": "https://max.ru/id3123416607_bot",
+      "tags": ["транспорт"],
+      "category_ids": ["uslugi"],
+      "popular": true
     }
   ],
   "support": {
