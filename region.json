@@ -97,6 +97,7 @@
     { "id": "employment", "name": "Работа и занятость" },
     { "id": "sport", "name": "Спорт"},
     { "id": "tourism", "name": "Туризм" },
+    { "id": "transport", "name": "Транспорт" },
     { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": false }
   ],
   "services": [
@@ -655,7 +656,7 @@
       "owner": "Администрация города Рязани",
       "link": "https://rzn-parking.ru/",
       "tags": ["транспорт"],
-      "category_ids": ["uslugi"],
+      "category_ids": ["uslugi", "transport"],
       "popular": true
     },
     {
@@ -667,7 +668,7 @@
       "owner": "Администрация города Рязани",
       "link": "https://max.ru/id3123416607_bot",
       "tags": ["транспорт"],
-      "category_ids": ["uslugi"],
+      "category_ids": ["uslugi", "transport"],
       "popular": true
     }
   ],
