@@ -82,6 +82,7 @@
     }
   ],
   "categories": [
+    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": true },
     { "id": "regbots", "name": "Региональные боты", "icon": "regbots.png", "show_on_main": true },
     { "id": "safety", "name": "Безопасность", "icon": "safety.png", "show_on_main": true },
     { "id": "health", "name": "Здоровье", "icon": "health.png", "show_on_main": true },
@@ -97,8 +98,7 @@
     { "id": "employment", "name": "Работа и занятость" },
     { "id": "sport", "name": "Спорт"},
     { "id": "tourism", "name": "Туризм" },
-    { "id": "transport", "name": "Транспорт" },
-    { "id": "online", "name": "Прямая линия Губернатора Рязанской области", "icon": "online.png", "show_on_main": true }
+    { "id": "transport", "name": "Транспорт" }
   ],
   "services": [
     {
